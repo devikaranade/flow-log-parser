@@ -124,6 +124,10 @@ Port,Protocol,Count
 - Modular functions ensure readability and maintainability of the codebase.
 - Error handling and validations ensure robustness when dealing with unexpected inputs.
 
+### Outputs for reference
+<img width="600" alt="1" src="https://github.com/user-attachments/assets/bfb9657d-95df-4095-9a77-adf2f48a85f7" />
+
+<img width="600" alt="2" src="https://github.com/user-attachments/assets/b9e1c04c-7308-451c-9163-86c1a7c7ad30" />
 
 ## 🤝 Contributing
 
