@@ -103,6 +103,27 @@ Port,Protocol,Count
 4. **Output Generation:**
    - Generates two output files with counts for tags and port/protocol combinations.
 
+## 📋 Assumptions
+
+- The program supports only the **default flow log format**.
+- Only **version 2** of flow logs is supported.
+- Input files must conform to the examples provided (flow log and lookup table formats).
+- No external libraries are used (e.g., Hadoop, Spark, pandas). The program is designed to be lightweight and run on a local machine without additional dependencies.
+
+---
+
+## 📜 Tests and Analysis
+
+### Tests Performed
+- **Functional Tests:** Verified program functionality with sample flow logs and lookup table files.
+- **Boundary Tests:** Tested with empty flow logs, unsupported formats, and mismatched lookup table entries.
+- **Performance Tests:** Processed large flow log files (up to 10 MB) to ensure the program handles size constraints efficiently.
+
+### Analysis
+- The program efficiently parses files and processes mappings using dictionaries for constant-time lookups.
+- Modular functions ensure readability and maintainability of the codebase.
+- Error handling and validations ensure robustness when dealing with unexpected inputs.
+
 
 ## 🤝 Contributing
 
